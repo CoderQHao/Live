@@ -18,7 +18,7 @@ class MainViewController: UITabBarController {
     
     /// 创建所有的子控制器
     private func setupAllChildControllers() {
-        setupOneChildController(vc: LiveViewController(), imageName: "live", title: "直播")
+        setupOneChildController(vc: HomeViewController(), imageName: "live", title: "直播")
 
         let vc1 = UIViewController()
         vc1.view.backgroundColor = UIColor.white
