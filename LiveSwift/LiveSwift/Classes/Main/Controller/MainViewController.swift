@@ -38,13 +38,10 @@ class MainViewController: UITabBarController {
     private func setupTabBar() {
         tabBar.isTranslucent = false
         tabBar.backgroundImage = UIColor.createImageWithColor(UIColor.white)
-        
         // 设置TabBar的字体
         let item = UITabBarItem.appearance()
         item.setTitleTextAttributes([NSForegroundColorAttributeName: UIColor.hexInt(0xbdbbbc)], for: .normal)
         item.setTitleTextAttributes([NSForegroundColorAttributeName: #colorLiteral(red: 0.8431372549, green: 0.6392156863, blue: 0.3058823529, alpha: 1)], for: .selected)
-        
-        
     }
     
 }

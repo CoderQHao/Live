@@ -1,0 +1,6 @@
+framework module Pods_LiveSwift {
+  umbrella header "Pods-LiveSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}
