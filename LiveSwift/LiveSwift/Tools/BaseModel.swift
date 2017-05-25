@@ -9,6 +9,7 @@
 import UIKit
 
 class BaseModel: NSObject {
+    override init() {}
 
     // MARK:- 自定义构造函数
     init(dict: [String: Any]) {

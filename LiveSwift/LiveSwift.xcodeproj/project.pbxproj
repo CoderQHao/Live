@@ -8,6 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		7D1F5CA31ED68525000800B3 /* CustomNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1F5CA21ED68525000800B3 /* CustomNavigationController.swift */; };
+		7D1F5CAD1ED68AA7000800B3 /* HQContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1F5CA61ED68AA7000800B3 /* HQContentView.swift */; };
+		7D1F5CAE1ED68AA7000800B3 /* HQPageCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1F5CA71ED68AA7000800B3 /* HQPageCollectionView.swift */; };
+		7D1F5CAF1ED68AA7000800B3 /* HQPageCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1F5CA81ED68AA7000800B3 /* HQPageCollectionViewLayout.swift */; };
+		7D1F5CB01ED68AA7000800B3 /* HQPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1F5CA91ED68AA7000800B3 /* HQPageView.swift */; };
+		7D1F5CB11ED68AA7000800B3 /* HQTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1F5CAA1ED68AA7000800B3 /* HQTitleLabel.swift */; };
+		7D1F5CB21ED68AA7000800B3 /* HQTitleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1F5CAB1ED68AA7000800B3 /* HQTitleStyle.swift */; };
+		7D1F5CB31ED68AA7000800B3 /* HQTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1F5CAC1ED68AA7000800B3 /* HQTitleView.swift */; };
+		7D1F5CB71ED68BCF000800B3 /* QHNormalEmotionSort.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7D1F5CB41ED68BCF000800B3 /* QHNormalEmotionSort.plist */; };
+		7D1F5CB81ED68BCF000800B3 /* QHSohuGifSort.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7D1F5CB51ED68BCF000800B3 /* QHSohuGifSort.plist */; };
+		7D1F5CB91ED68BCF000800B3 /* types.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7D1F5CB61ED68BCF000800B3 /* types.plist */; };
+		7D1F5CBB1ED68C54000800B3 /* HomeTitleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1F5CBA1ED68C54000800B3 /* HomeTitleModel.swift */; };
 		7D2B4E6D1ED66F0F00770DF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2B4E6C1ED66F0F00770DF4 /* AppDelegate.swift */; };
 		7D2B4E741ED66F0F00770DF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D2B4E731ED66F0F00770DF4 /* Assets.xcassets */; };
 		7D2B4E8B1ED673CB00770DF4 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2B4E8A1ED673CB00770DF4 /* MainViewController.swift */; };
@@ -25,6 +36,17 @@
 /* Begin PBXFileReference section */
 		4D8905539619DBCF109B8F81 /* Pods-LiveSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiveSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-LiveSwift/Pods-LiveSwift.release.xcconfig"; sourceTree = "<group>"; };
 		7D1F5CA21ED68525000800B3 /* CustomNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNavigationController.swift; sourceTree = "<group>"; };
+		7D1F5CA61ED68AA7000800B3 /* HQContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HQContentView.swift; sourceTree = "<group>"; };
+		7D1F5CA71ED68AA7000800B3 /* HQPageCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HQPageCollectionView.swift; sourceTree = "<group>"; };
+		7D1F5CA81ED68AA7000800B3 /* HQPageCollectionViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HQPageCollectionViewLayout.swift; sourceTree = "<group>"; };
+		7D1F5CA91ED68AA7000800B3 /* HQPageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HQPageView.swift; sourceTree = "<group>"; };
+		7D1F5CAA1ED68AA7000800B3 /* HQTitleLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HQTitleLabel.swift; sourceTree = "<group>"; };
+		7D1F5CAB1ED68AA7000800B3 /* HQTitleStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HQTitleStyle.swift; sourceTree = "<group>"; };
+		7D1F5CAC1ED68AA7000800B3 /* HQTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HQTitleView.swift; sourceTree = "<group>"; };
+		7D1F5CB41ED68BCF000800B3 /* QHNormalEmotionSort.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = QHNormalEmotionSort.plist; sourceTree = "<group>"; };
+		7D1F5CB51ED68BCF000800B3 /* QHSohuGifSort.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = QHSohuGifSort.plist; sourceTree = "<group>"; };
+		7D1F5CB61ED68BCF000800B3 /* types.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = types.plist; sourceTree = "<group>"; };
+		7D1F5CBA1ED68C54000800B3 /* HomeTitleModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTitleModel.swift; sourceTree = "<group>"; };
 		7D2B4E691ED66F0F00770DF4 /* LiveSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D2B4E6C1ED66F0F00770DF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7D2B4E731ED66F0F00770DF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -63,6 +85,28 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		7D1F5CA41ED68A9D000800B3 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				7D1F5CA51ED68AA7000800B3 /* HQPageView */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		7D1F5CA51ED68AA7000800B3 /* HQPageView */ = {
+			isa = PBXGroup;
+			children = (
+				7D1F5CA61ED68AA7000800B3 /* HQContentView.swift */,
+				7D1F5CA71ED68AA7000800B3 /* HQPageCollectionView.swift */,
+				7D1F5CA81ED68AA7000800B3 /* HQPageCollectionViewLayout.swift */,
+				7D1F5CA91ED68AA7000800B3 /* HQPageView.swift */,
+				7D1F5CAA1ED68AA7000800B3 /* HQTitleLabel.swift */,
+				7D1F5CAB1ED68AA7000800B3 /* HQTitleStyle.swift */,
+				7D1F5CAC1ED68AA7000800B3 /* HQTitleView.swift */,
+			);
+			path = HQPageView;
+			sourceTree = "<group>";
+		};
 		7D2B4E601ED66F0F00770DF4 = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +130,7 @@
 			children = (
 				7D2B4E7E1ED6718F00770DF4 /* Classes */,
 				7D2B4E831ED671B500770DF4 /* Tools */,
+				7D1F5CA41ED68A9D000800B3 /* Lib */,
 				7D2B4E6C1ED66F0F00770DF4 /* AppDelegate.swift */,
 				7D2B4E731ED66F0F00770DF4 /* Assets.xcassets */,
 				7D2B4E781ED66F0F00770DF4 /* Info.plist */,
@@ -113,6 +158,9 @@
 		7D2B4E821ED671B000770DF4 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				7D1F5CB41ED68BCF000800B3 /* QHNormalEmotionSort.plist */,
+				7D1F5CB51ED68BCF000800B3 /* QHSohuGifSort.plist */,
+				7D1F5CB61ED68BCF000800B3 /* types.plist */,
 			);
 			name = Resource;
 			path = ../Resource;
@@ -188,6 +236,7 @@
 		7D2B4E971ED675E500770DF4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				7D1F5CBA1ED68C54000800B3 /* HomeTitleModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -278,6 +327,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D1F5CB81ED68BCF000800B3 /* QHSohuGifSort.plist in Resources */,
+				7D1F5CB71ED68BCF000800B3 /* QHNormalEmotionSort.plist in Resources */,
+				7D1F5CB91ED68BCF000800B3 /* types.plist in Resources */,
 				7D2B4E741ED66F0F00770DF4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -337,15 +389,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D1F5CAE1ED68AA7000800B3 /* HQPageCollectionView.swift in Sources */,
 				7D1F5CA31ED68525000800B3 /* CustomNavigationController.swift in Sources */,
 				7D2B4EA41ED67A0000770DF4 /* UIBarButtonItem+Extension.swift in Sources */,
 				7D2B4EA31ED67A0000770DF4 /* UIColor+Extension.swift in Sources */,
+				7D1F5CBB1ED68C54000800B3 /* HomeTitleModel.swift in Sources */,
+				7D1F5CB21ED68AA7000800B3 /* HQTitleStyle.swift in Sources */,
+				7D1F5CAF1ED68AA7000800B3 /* HQPageCollectionViewLayout.swift in Sources */,
 				7D2B4EA11ED67A0000770DF4 /* Date+Extension.swift in Sources */,
 				7D2B4EA61ED67A0C00770DF4 /* NibLoadable.swift in Sources */,
+				7D1F5CB01ED68AA7000800B3 /* HQPageView.swift in Sources */,
+				7D1F5CB11ED68AA7000800B3 /* HQTitleLabel.swift in Sources */,
 				7D2B4EA81ED67A1400770DF4 /* BaseModel.swift in Sources */,
 				7D2B4E6D1ED66F0F00770DF4 /* AppDelegate.swift in Sources */,
 				7D2B4EA21ED67A0000770DF4 /* KingfisherExtension.swift in Sources */,
 				7D2B4E9C1ED675F900770DF4 /* LiveViewController.swift in Sources */,
+				7D1F5CB31ED68AA7000800B3 /* HQTitleView.swift in Sources */,
+				7D1F5CAD1ED68AA7000800B3 /* HQContentView.swift in Sources */,
 				7D2B4E8B1ED673CB00770DF4 /* MainViewController.swift in Sources */,
 				7D2B4EAA1ED67A3600770DF4 /* Const.swift in Sources */,
 			);

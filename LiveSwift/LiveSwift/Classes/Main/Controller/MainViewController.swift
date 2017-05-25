@@ -19,9 +19,17 @@ class MainViewController: UITabBarController {
     /// 创建所有的子控制器
     private func setupAllChildControllers() {
         setupOneChildController(vc: LiveViewController(), imageName: "live", title: "直播")
-        setupOneChildController(vc: UIViewController(), imageName: "ranking", title: "排行")
-        setupOneChildController(vc: UIViewController(), imageName: "found", title: "发现")
-        setupOneChildController(vc: UIViewController(), imageName: "mine", title: "我的")
+
+        let vc1 = UIViewController()
+        vc1.view.backgroundColor = UIColor.white
+        let vc2 = UIViewController()
+        vc2.view.backgroundColor = UIColor.white
+        let vc3 = UIViewController()
+        vc3.view.backgroundColor = UIColor.white
+
+        setupOneChildController(vc: vc1, imageName: "ranking", title: "排行")
+        setupOneChildController(vc: vc2, imageName: "found", title: "发现")
+        setupOneChildController(vc: vc3, imageName: "mine", title: "我的")
     }
     
     /// 创建一个子控制器
