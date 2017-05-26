@@ -39,6 +39,7 @@
 		7D2B4EA41ED67A0000770DF4 /* UIBarButtonItem+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2B4EA01ED67A0000770DF4 /* UIBarButtonItem+Extension.swift */; };
 		7D2B4EA61ED67A0C00770DF4 /* NibLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2B4EA51ED67A0C00770DF4 /* NibLoadable.swift */; };
 		7D2B4EA81ED67A1400770DF4 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2B4EA71ED67A1400770DF4 /* BaseModel.swift */; };
+		7DF95B2C1ED820B700A4B983 /* Emitterable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF95B2B1ED820B700A4B983 /* Emitterable.swift */; };
 		922B0068D38EB9BC8FCC0D1D /* Pods_LiveSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B064A28ED5FF3102B48F5A80 /* Pods_LiveSwift.framework */; };
 /* End PBXBuildFile section */
 
@@ -78,6 +79,7 @@
 		7D2B4EA01ED67A0000770DF4 /* UIBarButtonItem+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Extension.swift"; sourceTree = "<group>"; };
 		7D2B4EA51ED67A0C00770DF4 /* NibLoadable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibLoadable.swift; sourceTree = "<group>"; };
 		7D2B4EA71ED67A1400770DF4 /* BaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
+		7DF95B2B1ED820B700A4B983 /* Emitterable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Emitterable.swift; sourceTree = "<group>"; };
 		B064A28ED5FF3102B48F5A80 /* Pods_LiveSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LiveSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6B59AF248BB968A69ED752C /* Pods-LiveSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiveSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LiveSwift/Pods-LiveSwift.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -212,6 +214,7 @@
 			isa = PBXGroup;
 			children = (
 				7D2B4EA51ED67A0C00770DF4 /* NibLoadable.swift */,
+				7DF95B2B1ED820B700A4B983 /* Emitterable.swift */,
 			);
 			path = Protocol;
 			sourceTree = "<group>";
@@ -414,6 +417,7 @@
 				7D1F5CA31ED68525000800B3 /* CustomNavigationController.swift in Sources */,
 				7D2B4EA41ED67A0000770DF4 /* UIBarButtonItem+Extension.swift in Sources */,
 				7D1F5CBD1ED6B3C0000800B3 /* AnchorViewController.swift in Sources */,
+				7DF95B2C1ED820B700A4B983 /* Emitterable.swift in Sources */,
 				7D2B4EA31ED67A0000770DF4 /* UIColor+Extension.swift in Sources */,
 				7D1F5CBB1ED68C54000800B3 /* HomeTitleModel.swift in Sources */,
 				7D1F5CB21ED68AA7000800B3 /* HQTitleStyle.swift in Sources */,

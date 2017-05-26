@@ -14,6 +14,7 @@ class CustomNavigationController: UINavigationController {
         super.viewDidLoad()
         self.interactivePopGestureRecognizer?.delegate = self
         let navBar = UINavigationBar.appearance()
+        navBar.isTranslucent = true
         navBar.setBackgroundImage(UIColor.createImageWithColor(UIColor.hexInt(0x303030)), for: .any, barMetrics: .default)
         navBar.titleTextAttributes = [NSFontAttributeName: UIFont.boldSystemFont(ofSize: CGFloat(17)), NSForegroundColorAttributeName: UIColor.white]
         
@@ -34,7 +35,6 @@ class CustomNavigationController: UINavigationController {
     // 拦截所有push进来的控制器
     override func pushViewController(_ viewController: UIViewController, animated: Bool) {
         if childViewControllers.count > 0 {
-            view.endEditing(true)
             let backBtn = UIButton(type: .custom)
             backBtn.setImage(UIImage(named: "back"), for: .normal)
             backBtn.setImage(UIImage(named: "back"), for: .highlighted)
@@ -44,7 +44,6 @@ class CustomNavigationController: UINavigationController {
             viewController.navigationItem.leftBarButtonItem = UIBarButtonItem(customView: backBtn)
             // 隐藏要push的控制器的tabBar
             viewController.hidesBottomBarWhenPushed = true
-            
         }
         super.pushViewController(viewController, animated: animated)
     }

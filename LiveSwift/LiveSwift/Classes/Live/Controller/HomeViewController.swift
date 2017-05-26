@@ -14,14 +14,14 @@ class HomeViewController: UIViewController {
         super.viewDidLoad()
         setupUI()
     }
-
+    
 }
 
 extension HomeViewController {
     fileprivate func setupUI() {
         title = "首页"
         view.backgroundColor = UIColor.white
-        let frame = CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height - 64 - 44)
+        let frame = CGRect(x: 0, y: 64, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height - 64 - 44)
         let homeTitleModels = loadTypesData()
         let titles = homeTitleModels.map({ $0.title })
         let style = HQTitleStyle()
